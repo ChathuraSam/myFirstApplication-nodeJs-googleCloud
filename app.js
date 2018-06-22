@@ -21,7 +21,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, Chathura').end();
+  res.status(200).send('Hello, Node JS . This is Chathura. You are awesome').end();
 });
 
 // Start the server
